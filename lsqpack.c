@@ -594,6 +594,507 @@ lsqpack_enc_cleanup (struct lsqpack_enc *enc)
 
 static const unsigned char name2id_plus_one[ 1 << XXH_NAME_WIDTH ] =
 {
+#if 1 // hezhiwen
+    0,  // 0
+    0,  // 1
+    0,  // 2
+    0,  // 3
+    0,  // 4
+    0,  // 5
+    0,  // 6
+    0,  // 7
+    0,  // 8
+    0,  // 9
+    0,  // 10
+    0,  // 11
+    0,  // 12
+    0,  // 13
+    0,  // 14
+    0,  // 15
+    0,  // 16
+    0,  // 17
+    0,  // 18
+    0,  // 19
+    0,  // 20
+    0,  // 21
+    0,  // 22
+    0,  // 23
+    0,  // 24
+    5,  // 25
+    0,  // 26
+    0,  // 27
+    0,  // 28
+    0,  // 29
+    0,  // 30
+    0,  // 31
+    0,  // 32
+    0,  // 33
+    0,  // 34
+    0,  // 35
+    0,  // 36
+    0,  // 37
+    13, // 38
+    0,  // 39
+    0,  // 40
+    0,  // 41
+    0,  // 42
+    0,  // 43
+    0,  // 44
+    0,  // 45
+    0,  // 46
+    0,  // 47
+    0,  // 48
+    0,  // 49
+    0,  // 50
+    14, // 51
+    0,  // 52
+    0,  // 53
+    0,  // 54
+    0,  // 55
+    84, // 56
+    0,  // 57
+    0,  // 58
+    36, // 59
+    0,  // 60
+    0,  // 61
+    0,  // 62
+    0,  // 63
+    3,  // 64
+    0,  // 65
+    0,  // 66
+    0,  // 67
+    0,  // 68
+    0,  // 69
+    0,  // 70
+    0,  // 71
+    0,  // 72
+    0,  // 73
+    62, // 74
+    0,  // 75
+    0,  // 76
+    0,  // 77
+    0,  // 78
+    86, // 79
+    0,  // 80
+    23, // 81
+    0,  // 82
+    25, // 83
+    90, // 84
+    0,  // 85
+    0,  // 86
+    0,  // 87
+    57, // 88
+    0,  // 89
+    0,  // 90
+    0,  // 91
+    0,  // 92
+    0,  // 93
+    0,  // 94
+    0,  // 95
+    0,  // 96
+    0,  // 97
+    0,  // 98
+    0,  // 99
+    0,  // 100
+    0,  // 101
+    0,  // 102
+    0,  // 103
+    0,  // 104
+    0,  // 105
+    0,  // 106
+    0,  // 107
+    0,  // 108
+    0,  // 109
+    0,  // 110
+    0,  // 111
+    0,  // 112
+    0,  // 113
+    0,  // 114
+    0,  // 115
+    0,  // 116
+    0,  // 117
+    0,  // 118
+    0,  // 119
+    0,  // 120
+    0,  // 121
+    0,  // 122
+    0,  // 123
+    0,  // 124
+    0,  // 125
+    0,  // 126
+    0,  // 127
+    0,  // 128
+    0,  // 129
+    0,  // 130
+    0,  // 131
+    0,  // 132
+    0,  // 133
+    0,  // 134
+    0,  // 135
+    0,  // 136
+    0,  // 137
+    0,  // 138
+    0,  // 139
+    0,  // 140
+    0,  // 141
+    0,  // 142
+    0,  // 143
+    4,  // 144
+    0,  // 145
+    92, // 146
+    0,  // 147
+    0,  // 148
+    0,  // 149
+    0,  // 150
+    0,  // 151
+    0,  // 152
+    0,  // 153
+    0,  // 154
+    0,  // 155
+    0,  // 156
+    0,  // 157
+    0,  // 158
+    0,  // 159
+    0,  // 160
+    0,  // 161
+    0,  // 162
+    0,  // 163
+    0,  // 164
+    0,  // 165
+    0,  // 166
+    0,  // 167
+    0,  // 168
+    32, // 169
+    0,  // 170
+    0,  // 171
+    0,  // 172
+    0,  // 173
+    0,  // 174
+    0,  // 175
+    0,  // 176
+    0,  // 177
+    0,  // 178
+    0,  // 179
+    0,  // 180
+    11, // 181
+    0,  // 182
+    0,  // 183
+    0,  // 184
+    0,  // 185
+    0,  // 186
+    0,  // 187
+    0,  // 188
+    63, // 189
+    9,  // 190
+    0,  // 191
+    0,  // 192
+    0,  // 193
+    0,  // 194
+    0,  // 195
+    0,  // 196
+    0,  // 197
+    0,  // 198
+    0,  // 199
+    0,  // 200
+    0,  // 201
+    0,  // 202
+    0,  // 203
+    0,  // 204
+    0,  // 205
+    0,  // 206
+    0,  // 207
+    0,  // 208
+    0,  // 209
+    12, // 210
+    73, // 211
+    0,  // 212
+    0,  // 213
+    0,  // 214
+    0,  // 215
+    6,  // 216
+    0,  // 217
+    0,  // 218
+    0,  // 219
+    0,  // 220
+    0,  // 221
+    0,  // 222
+    0,  // 223
+    0,  // 224
+    93, // 225
+    0,  // 226
+    0,  // 227
+    0,  // 228
+    0,  // 229
+    0,  // 230
+    0,  // 231
+    0,  // 232
+    0,  // 233
+    0,  // 234
+    0,  // 235
+    0,  // 236
+    0,  // 237
+    0,  // 238
+    0,  // 239
+    0,  // 240
+    0,  // 241
+    0,  // 242
+    0,  // 243
+    0,  // 244
+    0,  // 245
+    0,  // 246
+    0,  // 247
+    30, // 248
+    0,  // 249
+    0,  // 250
+    0,  // 251
+    0,  // 252
+    0,  // 253
+    0,  // 254
+    0,  // 255
+    0,  // 256
+    82, // 257
+    0,  // 258
+    0,  // 259
+    0,  // 260
+    0,  // 261
+    0,  // 262
+    0,  // 263
+    91, // 264
+    0,  // 265
+    56, // 266
+    0,  // 267
+    0,  // 268
+    0,  // 269
+    0,  // 270
+    0,  // 271
+    0,  // 272
+    0,  // 273
+    0,  // 274
+    0,  // 275
+    0,  // 276
+    0,  // 277
+    0,  // 278
+    0,  // 279
+    0,  // 280
+    0,  // 281
+    0,  // 282
+    0,  // 283
+    0,  // 284
+    0,  // 285
+    0,  // 286
+    0,  // 287
+    0,  // 288
+    0,  // 289
+    0,  // 290
+    0,  // 291
+    0,  // 292
+    0,  // 293
+    0,  // 294
+    0,  // 295
+    0,  // 296
+    0,  // 297
+    0,  // 298
+    0,  // 299
+    0,  // 300
+    0,  // 301
+    0,  // 302
+    0,  // 303
+    0,  // 304
+    95, // 305
+    0,  // 306
+    0,  // 307
+    0,  // 308
+    0,  // 309
+    0,  // 310
+    0,  // 311
+    0,  // 312
+    0,  // 313
+    0,  // 314
+    0,  // 315
+    0,  // 316
+    60, // 317
+    15, // 318
+    0,  // 319
+    0,  // 320
+    85, // 321
+    0,  // 322
+    0,  // 323
+    0,  // 324
+    0,  // 325
+    0,  // 326
+    0,  // 327
+    0,  // 328
+    0,  // 329
+    0,  // 330
+    0,  // 331
+    0,  // 332
+    0,  // 333
+    74, // 334
+    0,  // 335
+    0,  // 336
+    0,  // 337
+    0,  // 338
+    0,  // 339
+    0,  // 340
+    0,  // 341
+    0,  // 342
+    0,  // 343
+    0,  // 344
+    0,  // 345
+    0,  // 346
+    1,  // 347
+    0,  // 348
+    0,  // 349
+    0,  // 350
+    0,  // 351
+    0,  // 352
+    0,  // 353
+    0,  // 354
+    0,  // 355
+    0,  // 356
+    88, // 357
+    0,  // 358
+    0,  // 359
+    0,  // 360
+    7,  // 361
+    96, // 362
+    0,  // 363
+    0,  // 364
+    77, // 365
+    0,  // 366
+    0,  // 367
+    0,  // 368
+    0,  // 369
+    0,  // 370
+    0,  // 371
+    0,  // 372
+    0,  // 373
+    0,  // 374
+    0,  // 375
+    0,  // 376
+    81, // 377
+    0,  // 378
+    0,  // 379
+    0,  // 380
+    0,  // 381
+    80, // 382
+    0,  // 383
+    87, // 384
+    0,  // 385
+    0,  // 386
+    0,  // 387
+    0,  // 388
+    0,  // 389
+    0,  // 390
+    0,  // 391
+    0,  // 392
+    0,  // 393
+    0,  // 394
+    0,  // 395
+    0,  // 396
+    2,  // 397
+    0,  // 398
+    0,  // 399
+    0,  // 400
+    43, // 401
+    0,  // 402
+    0,  // 403
+    10, // 404
+    0,  // 405
+    0,  // 406
+    0,  // 407
+    0,  // 408
+    0,  // 409
+    0,  // 410
+    0,  // 411
+    0,  // 412
+    0,  // 413
+    0,  // 414
+    0,  // 415
+    0,  // 416
+    0,  // 417
+    0,  // 418
+    0,  // 419
+    0,  // 420
+    0,  // 421
+    0,  // 422
+    0,  // 423
+    0,  // 424
+    0,  // 425
+    0,  // 426
+    0,  // 427
+    0,  // 428
+    0,  // 429
+    0,  // 430
+    0,  // 431
+    0,  // 432
+    0,  // 433
+    0,  // 434
+    0,  // 435
+    0,  // 436
+    0,  // 437
+    89, // 438
+    0,  // 439
+    0,  // 440
+    0,  // 441
+    8,  // 442
+    0,  // 443
+    0,  // 444
+    0,  // 445
+    0,  // 446
+    0,  // 447
+    0,  // 448
+    0,  // 449
+    0,  // 450
+    0,  // 451
+    0,  // 452
+    45, // 453
+    0,  // 454
+    0,  // 455
+    33, // 456
+    0,  // 457
+    0,  // 458
+    0,  // 459
+    0,  // 460
+    0,  // 461
+    0,  // 462
+    0,  // 463
+    0,  // 464
+    0,  // 465
+    0,  // 466
+    0,  // 467
+    0,  // 468
+    0,  // 469
+    0,  // 470
+    0,  // 471
+    0,  // 472
+    0,  // 473
+    0,  // 474
+    0,  // 475
+    0,  // 476
+    0,  // 477
+    0,  // 478
+    34, // 479
+    0,  // 480
+    0,  // 481
+    0,  // 482
+    0,  // 483
+    16, // 484
+    0,  // 485
+    97, // 486
+    0,  // 487
+    0,  // 488
+    0,  // 489
+    94, // 490
+    0,  // 491
+    0,  // 492
+    0,  // 493
+    0,  // 494
+    0,  // 495
+    0,  // 496
+    98, // 497
+    37, // 498
+#else
     [347]  =  1,   [397]  =  2,   [64]   =  3,   [144]  =  4,   [25]   =  5,
     [216]  =  6,   [361]  =  7,   [442]  =  8,   [190]  =  9,   [404]  =  10,
     [181]  =  11,  [210]  =  12,  [38]   =  13,  [51]   =  14,  [318]  =  15,
@@ -605,10 +1106,522 @@ static const unsigned char name2id_plus_one[ 1 << XXH_NAME_WIDTH ] =
     [384]  =  87,  [357]  =  88,  [438]  =  89,  [84]   =  90,  [264]  =  91,
     [146]  =  92,  [225]  =  93,  [490]  =  94,  [305]  =  95,  [362]  =  96,
     [486]  =  97,  [497]  =  98,
+#endif
 };
 
 static const unsigned char nameval2id_plus_one[ 1 << XXH_NAMEVAL_WIDTH ] =
 {
+#if 1 // hezhiwen
+    0,  // 0
+    64, // 1
+    0,  // 2
+    0,  // 3
+    62, // 4
+    0,  // 5
+    0,  // 6
+    71, // 7
+    0,  // 8
+    0,  // 9
+    0,  // 10
+    0,  // 11
+    70, // 12
+    0,  // 13
+    0,  // 14
+    0,  // 15
+    0,  // 16
+    0,  // 17
+    0,  // 18
+    0,  // 19
+    0,  // 20
+    18, // 21
+    0,  // 22
+    0,  // 23
+    0,  // 24
+    0,  // 25
+    0,  // 26
+    75, // 27
+    0,  // 28
+    0,  // 29
+    0,  // 30
+    0,  // 31
+    0,  // 32
+    0,  // 33
+    0,  // 34
+    0,  // 35
+    0,  // 36
+    0,  // 37
+    46, // 38
+    0,  // 39
+    0,  // 40
+    0,  // 41
+    0,  // 42
+    0,  // 43
+    0,  // 44
+    0,  // 45
+    0,  // 46
+    0,  // 47
+    0,  // 48
+    0,  // 49
+    0,  // 50
+    0,  // 51
+    0,  // 52
+    0,  // 53
+    95, // 54
+    0,  // 55
+    16, // 56
+    0,  // 57
+    0,  // 58
+    0,  // 59
+    0,  // 60
+    0,  // 61
+    0,  // 62
+    0,  // 63
+    0,  // 64
+    60, // 65
+    0,  // 66
+    24, // 67
+    0,  // 68
+    84, // 69
+    0,  // 70
+    0,  // 71
+    0,  // 72
+    73, // 73
+    0,  // 74
+    14, // 75
+    0,  // 76
+    0,  // 77
+    0,  // 78
+    0,  // 79
+    0,  // 80
+    0,  // 81
+    0,  // 82
+    0,  // 83
+    8,  // 84
+    44, // 85
+    0,  // 86
+    0,  // 87
+    0,  // 88
+    0,  // 89
+    0,  // 90
+    53, // 91
+    0,  // 92
+    0,  // 93
+    0,  // 94
+    0,  // 95
+    0,  // 96
+    0,  // 97
+    0,  // 98
+    0,  // 99
+    0,  // 100
+    0,  // 101
+    0,  // 102
+    0,  // 103
+    0,  // 104
+    25, // 105
+    0,  // 106
+    92, // 107
+    0,  // 108
+    0,  // 109
+    91, // 110
+    0,  // 111
+    0,  // 112
+    0,  // 113
+    0,  // 114
+    0,  // 115
+    0,  // 116
+    0,  // 117
+    0,  // 118
+    0,  // 119
+    0,  // 120
+    0,  // 121
+    41, // 122
+    0,  // 123
+    0,  // 124
+    0,  // 125
+    0,  // 126
+    0,  // 127
+    0,  // 128
+    0,  // 129
+    0,  // 130
+    0,  // 131
+    0,  // 132
+    0,  // 133
+    0,  // 134
+    30, // 135
+    50, // 136
+    0,  // 137
+    0,  // 138
+    36, // 139
+    0,  // 140
+    0,  // 141
+    58, // 142
+    0,  // 143
+    43, // 144
+    0,  // 145
+    0,  // 146
+    0,  // 147
+    0,  // 148
+    0,  // 149
+    1,  // 150
+    0,  // 151
+    0,  // 152
+    0,  // 153
+    77, // 154
+    0,  // 155
+    35, // 156
+    0,  // 157
+    0,  // 158
+    0,  // 159
+    0,  // 160
+    28, // 161
+    81, // 162
+    0,  // 163
+    6,  // 164
+    0,  // 165
+    0,  // 166
+    0,  // 167
+    0,  // 168
+    0,  // 169
+    0,  // 170
+    0,  // 171
+    0,  // 172
+    0,  // 173
+    0,  // 174
+    0,  // 175
+    13, // 176
+    0,  // 177
+    0,  // 178
+    0,  // 179
+    0,  // 180
+    0,  // 181
+    0,  // 182
+    0,  // 183
+    34, // 184
+    0,  // 185
+    0,  // 186
+    0,  // 187
+    85, // 188
+    0,  // 189
+    87, // 190
+    0,  // 191
+    0,  // 192
+    0,  // 193
+    0,  // 194
+    0,  // 195
+    98, // 196
+    0,  // 197
+    80, // 198
+    0,  // 199
+    0,  // 200
+    0,  // 201
+    0,  // 202
+    0,  // 203
+    78, // 204
+    9,  // 205
+    0,  // 206
+    0,  // 207
+    0,  // 208
+    0,  // 209
+    65, // 210
+    0,  // 211
+    0,  // 212
+    0,  // 213
+    0,  // 214
+    0,  // 215
+    0,  // 216
+    0,  // 217
+    0,  // 218
+    0,  // 219
+    0,  // 220
+    0,  // 221
+    68, // 222
+    0,  // 223
+    66, // 224
+    0,  // 225
+    0,  // 226
+    54, // 227
+    10, // 228
+    0,  // 229
+    0,  // 230
+    0,  // 231
+    0,  // 232
+    0,  // 233
+    0,  // 234
+    0,  // 235
+    0,  // 236
+    0,  // 237
+    0,  // 238
+    0,  // 239
+    0,  // 240
+    0,  // 241
+    0,  // 242
+    0,  // 243
+    86, // 244
+    0,  // 245
+    0,  // 246
+    0,  // 247
+    0,  // 248
+    0,  // 249
+    0,  // 250
+    0,  // 251
+    0,  // 252
+    0,  // 253
+    0,  // 254
+    0,  // 255
+    76, // 256
+    0,  // 257
+    0,  // 258
+    0,  // 259
+    0,  // 260
+    0,  // 261
+    4,  // 262
+    0,  // 263
+    0,  // 264
+    0,  // 265
+    0,  // 266
+    39, // 267
+    59, // 268
+    0,  // 269
+    0,  // 270
+    0,  // 271
+    56, // 272
+    48, // 273
+    0,  // 274
+    0,  // 275
+    0,  // 276
+    49, // 277
+    0,  // 278
+    0,  // 279
+    0,  // 280
+    0,  // 281
+    0,  // 282
+    0,  // 283
+    0,  // 284
+    0,  // 285
+    0,  // 286
+    0,  // 287
+    0,  // 288
+    0,  // 289
+    0,  // 290
+    0,  // 291
+    0,  // 292
+    0,  // 293
+    0,  // 294
+    0,  // 295
+    0,  // 296
+    42, // 297
+    0,  // 298
+    0,  // 299
+    0,  // 300
+    55, // 301
+    0,  // 302
+    0,  // 303
+    0,  // 304
+    0,  // 305
+    0,  // 306
+    74, // 307
+    0,  // 308
+    0,  // 309
+    79, // 310
+    0,  // 311
+    0,  // 312
+    0,  // 313
+    31, // 314
+    0,  // 315
+    0,  // 316
+    0,  // 317
+    0,  // 318
+    57, // 319
+    47, // 320
+    0,  // 321
+    0,  // 322
+    0,  // 323
+    0,  // 324
+    0,  // 325
+    0,  // 326
+    0,  // 327
+    0,  // 328
+    22, // 329
+    0,  // 330
+    0,  // 331
+    0,  // 332
+    0,  // 333
+    82, // 334
+    0,  // 335
+    0,  // 336
+    29, // 337
+    0,  // 338
+    37, // 339
+    0,  // 340
+    0,  // 341
+    26, // 342
+    0,  // 343
+    0,  // 344
+    0,  // 345
+    0,  // 346
+    0,  // 347
+    0,  // 348
+    0,  // 349
+    0,  // 350
+    0,  // 351
+    0,  // 352
+    3,  // 353
+    0,  // 354
+    0,  // 355
+    0,  // 356
+    0,  // 357
+    0,  // 358
+    0,  // 359
+    23, // 360
+    0,  // 361
+    0,  // 362
+    0,  // 363
+    0,  // 364
+    0,  // 365
+    0,  // 366
+    0,  // 367
+    93, // 368
+    0,  // 369
+    32, // 370
+    0,  // 371
+    0,  // 372
+    63, // 373
+    0,  // 374
+    40, // 375
+    0,  // 376
+    0,  // 377
+    0,  // 378
+    0,  // 379
+    0,  // 380
+    0,  // 381
+    20, // 382
+    99, // 383
+    17, // 384
+    0,  // 385
+    69, // 386
+    0,  // 387
+    0,  // 388
+    0,  // 389
+    0,  // 390
+    72, // 391
+    0,  // 392
+    0,  // 393
+    0,  // 394
+    0,  // 395
+    0,  // 396
+    0,  // 397
+    0,  // 398
+    15, // 399
+    0,  // 400
+    0,  // 401
+    97, // 402
+    0,  // 403
+    33, // 404
+    0,  // 405
+    0,  // 406
+    0,  // 407
+    0,  // 408
+    0,  // 409
+    61, // 410
+    0,  // 411
+    0,  // 412
+    0,  // 413
+    0,  // 414
+    0,  // 415
+    0,  // 416
+    90, // 417
+    0,  // 418
+    0,  // 419
+    0,  // 420
+    0,  // 421
+    0,  // 422
+    67, // 423
+    0,  // 424
+    0,  // 425
+    0,  // 426
+    0,  // 427
+    0,  // 428
+    0,  // 429
+    0,  // 430
+    0,  // 431
+    0,  // 432
+    0,  // 433
+    0,  // 434
+    0,  // 435
+    0,  // 436
+    0,  // 437
+    83, // 438
+    21, // 439
+    0,  // 440
+    0,  // 441
+    0,  // 442
+    5,  // 443
+    12, // 444
+    0,  // 445
+    0,  // 446
+    0,  // 447
+    0,  // 448
+    0,  // 449
+    0,  // 450
+    11, // 451
+    0,  // 452
+    0,  // 453
+    51, // 454
+    0,  // 455
+    0,  // 456
+    27, // 457
+    0,  // 458
+    0,  // 459
+    94, // 460
+    0,  // 461
+    0,  // 462
+    7,  // 463
+    0,  // 464
+    88, // 465
+    45, // 466
+    0,  // 467
+    89, // 468
+    0,  // 469
+    0,  // 470
+    0,  // 471
+    0,  // 472
+    0,  // 473
+    0,  // 474
+    0,  // 475
+    0,  // 476
+    52, // 477
+    0,  // 478
+    0,  // 479
+    0,  // 480
+    0,  // 481
+    0,  // 482
+    0,  // 483
+    19, // 484
+    0,  // 485
+    0,  // 486
+    0,  // 487
+    0,  // 488
+    0,  // 489
+    0,  // 490
+    0,  // 491
+    96, // 492
+    0,  // 493
+    0,  // 494
+    0,  // 495
+    0,  // 496
+    0,  // 497
+    0,  // 498
+    0,  // 499
+    0,  // 500
+    0,  // 501
+    2,  // 502
+    0,  // 503
+    0,  // 504
+    0,  // 505
+    0,  // 506
+    0,  // 507
+    38, // 508
+#else
     [150]  =  1,   [502]  =  2,   [353]  =  3,   [262]  =  4,   [443]  =  5,
     [164]  =  6,   [463]  =  7,   [84]   =  8,   [205]  =  9,   [228]  =  10,
     [451]  =  11,  [444]  =  12,  [176]  =  13,  [75]   =  14,  [399]  =  15,
@@ -629,6 +1642,7 @@ static const unsigned char nameval2id_plus_one[ 1 << XXH_NAMEVAL_WIDTH ] =
     [244]  =  86,  [190]  =  87,  [465]  =  88,  [468]  =  89,  [417]  =  90,
     [110]  =  91,  [107]  =  92,  [368]  =  93,  [460]  =  94,  [54]   =  95,
     [492]  =  96,  [402]  =  97,  [196]  =  98,  [383]  =  99,
+#endif
 };
 
 
@@ -1333,17 +2347,35 @@ struct encode_program
 
 static const char *const eea2str[] =
 {
+#if 1 // hezhiwen
+    "EEA_NONE",
+    "EEA_DUP",
+    "EEA_INS_NAMEREF_STATIC",
+    "EEA_INS_NAMEREF_DYNAMIC",
+    "EEA_INS_LIT",
+    "EEA_INS_LIT_NAME",
+#else
     [EEA_NONE] = "EEA_NONE",
     [EEA_DUP] = "EEA_DUP",
     [EEA_INS_NAMEREF_STATIC] = "EEA_INS_NAMEREF_STATIC",
     [EEA_INS_NAMEREF_DYNAMIC] = "EEA_INS_NAMEREF_DYNAMIC",
     [EEA_INS_LIT] = "EEA_INS_LIT",
     [EEA_INS_LIT_NAME] = "EEA_INS_LIT_NAME",
+#endif
 };
 
 
 static const char *const eha2str[] =
 {
+#if 1 // hezhiwen
+    "EHA_INDEXED_NEW",
+    "EHA_INDEXED_STAT",
+    "EHA_INDEXED_DYN",
+    "EHA_LIT_WITH_NAME_STAT",
+    "EHA_LIT_WITH_NAME_DYN",
+    "EHA_LIT_WITH_NAME_NEW",
+    "EHA_LIT",
+#else
     [EHA_INDEXED_NEW] = "EHA_INDEXED_NEW",
     [EHA_INDEXED_STAT] = "EHA_INDEXED_STAT",
     [EHA_INDEXED_DYN] = "EHA_INDEXED_DYN",
@@ -1351,14 +2383,21 @@ static const char *const eha2str[] =
     [EHA_LIT_WITH_NAME_DYN] = "EHA_LIT_WITH_NAME_DYN",
     [EHA_LIT_WITH_NAME_NEW] = "EHA_LIT_WITH_NAME_NEW",
     [EHA_LIT] = "EHA_LIT",
+#endif
 };
 
 
 static const char *const eta2str[] =
 {
+#if 1 // hezhiwen
+    "ETA_NOOP",
+    "ETA_NEW",
+    "ETA_NEW_NAME",
+#else
     [ETA_NOOP] = "ETA_NOOP",
     [ETA_NEW] = "ETA_NEW",
     [ETA_NEW_NAME] = "ETA_NEW_NAME",
+#endif
 };
 
 
@@ -1655,12 +2694,19 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
     {
   static_nameval_match:
         id = static_id;
+    #if 1 // hezhiwen
+        prog.ep_enc_action = EEA_NONE;
+        prog.ep_hea_action = EHA_INDEXED_STAT;
+        prog.ep_tab_action = ETA_NOOP;
+        prog.ep_flags = 0;
+    #else
         prog = (struct encode_program) {
                     .ep_enc_action = EEA_NONE,
                     .ep_hea_action = EHA_INDEXED_STAT,
                     .ep_tab_action = ETA_NOOP,
                     .ep_flags      = 0,
         };
+    #endif
         update_hist = 0;
 #if USE_USELESS_INITIALIZATION
         nameval_hash = 0;
@@ -1720,40 +2766,76 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
             if ((risk || entry->ete_id <= enc->qpe_max_acked_id) && index && qenc_duplicable_entry(enc, entry))
             {
                 if (risk)
+                #if 1 // hezhiwen
+                {
+                    prog.ep_enc_action = EEA_DUP;
+                    prog.ep_hea_action = EHA_INDEXED_NEW;
+                    prog.ep_tab_action = ETA_NEW;
+                    prog.ep_flags = EPF_REF_FOUND | EPF_REF_NEW;
+                }
+                #else
                     prog = (struct encode_program) {
                             .ep_enc_action = EEA_DUP,
                             .ep_hea_action = EHA_INDEXED_NEW,
                             .ep_tab_action = ETA_NEW,
                             .ep_flags      = EPF_REF_FOUND | EPF_REF_NEW,
                     };
+                #endif
                 else if (!qenc_entry_is_draining(enc, entry))
                 {
                     if (qenc_safe_to_dup(enc, entry))
+                    #if 1 // hezhiwen
+                    {
+                        prog.ep_enc_action = EEA_DUP;
+                        prog.ep_hea_action = EHA_INDEXED_DYN;
+                        prog.ep_tab_action = ETA_NEW;
+                        prog.ep_flags = EPF_REF_FOUND;
+                    }
+                    #else
                         prog = (struct encode_program) {
                             .ep_enc_action = EEA_DUP,
                             .ep_hea_action = EHA_INDEXED_DYN,
                             .ep_tab_action = ETA_NEW,
                             .ep_flags      = EPF_REF_FOUND,
                         };
+                    #endif
                     else
+                    #if 1 // hezhiwen
+                    {
+                        prog.ep_enc_action = EEA_NONE;
+                        prog.ep_hea_action = EHA_INDEXED_DYN;
+                        prog.ep_tab_action = ETA_NOOP;
+                        prog.ep_flags = EPF_REF_FOUND;
+                    }
+                    #else
                         prog = (struct encode_program) {
                             .ep_enc_action = EEA_NONE,
                             .ep_hea_action = EHA_INDEXED_DYN,
                             .ep_tab_action = ETA_NOOP,
                             .ep_flags      = EPF_REF_FOUND,
                         };
+                    #endif
                 }
                 else
                     break;
             }
             else if ((risk || entry->ete_id <= enc->qpe_max_acked_id)
                                     && !qenc_entry_is_draining(enc, entry))
+            #if 1 // hezhiwen
+            {
+                prog.ep_enc_action = EEA_NONE;
+                prog.ep_hea_action = EHA_INDEXED_DYN;
+                prog.ep_tab_action = ETA_NOOP;
+                prog.ep_flags = EPF_REF_FOUND;
+            }
+            #else
                 prog = (struct encode_program) {
                             .ep_enc_action = EEA_NONE,
                             .ep_hea_action = EHA_INDEXED_DYN,
                             .ep_tab_action = ETA_NOOP,
                             .ep_flags      = EPF_REF_FOUND,
                 };
+            #endif
             else
                 break;
             goto execute_program;
@@ -1774,12 +2856,19 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
             else
                 break;
             id = entry->ete_id;
+        #if 1 // hezhiwen
+            prog.ep_enc_action = EEA_NONE;
+            prog.ep_hea_action = EHA_INDEXED_DYN;
+            prog.ep_tab_action = ETA_NOOP;
+            prog.ep_flags = EPF_REF_FOUND;
+        #else
             prog = (struct encode_program) {
                         .ep_enc_action = EEA_NONE,
                         .ep_hea_action = EHA_INDEXED_DYN,
                         .ep_tab_action = ETA_NOOP,
                         .ep_flags      = EPF_REF_FOUND,
             };
+        #endif
             goto execute_program;
         }
     }
@@ -1807,6 +2896,28 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
                                              ENTRY_COST(name_len, value_len)), enough_room != 0))
         {
             static const struct encode_program programs[2][2][2] = {
+            #if 1 // hezhiwen
+                {
+                    {
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                    },
+                    {
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                    },
+                },
+                {
+                    {
+                        { EEA_INS_NAMEREF_STATIC, EHA_LIT_WITH_NAME_STAT, ETA_NEW,  0, },
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                    },
+                    {
+                        { EEA_INS_NAMEREF_STATIC, EHA_INDEXED_NEW,        ETA_NEW,  EPF_REF_NEW, },
+                        { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
+                    },
+                },
+            #else
                 [0][0][0] = { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
                 [0][0][1] = { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
                 [0][1][0] = { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
@@ -1815,12 +2926,22 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
                 [1][0][1] = { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },
                 [1][1][0] = { EEA_INS_NAMEREF_STATIC, EHA_INDEXED_NEW,        ETA_NEW,  EPF_REF_NEW, },
                 [1][1][1] = { EEA_NONE,               EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, },   /* Invalid state */
+            #endif
             };
             seen_nameval = qenc_hist_seen(enc, HE_NAMEVAL, nameval_hash);
             prog = programs[seen_nameval][risk][use_dyn_table && n_cand > 0];
         }
         else
+        #if 1 // hezhiwen
+        {
+            prog.ep_enc_action = EEA_NONE;
+            prog.ep_hea_action = EHA_LIT_WITH_NAME_STAT;
+            prog.ep_tab_action = ETA_NOOP;
+            prog.ep_flags = 0;
+        }
+        #else
             prog = (struct encode_program) { EEA_NONE, EHA_LIT_WITH_NAME_STAT, ETA_NOOP, 0, };
+        #endif
         goto execute_program;
     }
 
@@ -1850,12 +2971,30 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
                 id = entry->ete_id;
                 if (index && enough_room && risk
                                 && qenc_hist_seen(enc, HE_NAMEVAL, nameval_hash))
+                #if 1 // hezhiwen
+                {
+                    prog.ep_enc_action = EEA_INS_NAMEREF_DYNAMIC;
+                    prog.ep_hea_action = EHA_INDEXED_NEW;
+                    prog.ep_tab_action = ETA_NEW;
+                    prog.ep_flags = EPF_REF_NEW|EPF_REF_FOUND;
+                }
+                #else
                     prog = (struct encode_program) { EEA_INS_NAMEREF_DYNAMIC,
                                 EHA_INDEXED_NEW, ETA_NEW,
                                 EPF_REF_NEW|EPF_REF_FOUND, };
+                #endif
                 else
+                #if 1 // hezhiwen
+                {
+                    prog.ep_enc_action = EEA_NONE;
+                    prog.ep_hea_action = EHA_LIT_WITH_NAME_DYN;
+                    prog.ep_tab_action = ETA_NOOP;
+                    prog.ep_flags = EPF_REF_FOUND;
+                }
+                #else
                     prog = (struct encode_program) { EEA_NONE,
                             EHA_LIT_WITH_NAME_DYN, ETA_NOOP, EPF_REF_FOUND, };
+                #endif
                 goto execute_program;
             }
     }
@@ -1869,10 +3008,21 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
                             ENTRY_COST(name_len, value_len))) : enough_room))
     {
         static const struct encode_program programs[2][2] = {
+        #if 1 // hezhiwen
+            {
+                { EEA_INS_LIT,     EHA_LIT,                ETA_NEW,  0, },
+                { EEA_NONE,        EHA_LIT,                ETA_NOOP, 0, },
+            },
+            {
+                { EEA_INS_LIT,     EHA_INDEXED_NEW,        ETA_NEW,  EPF_REF_NEW, },
+                { EEA_NONE,        EHA_LIT,                ETA_NOOP, 0, },
+            },
+        #else
             [0][0] = { EEA_INS_LIT,     EHA_LIT,                ETA_NEW,  0, },
             [0][1] = { EEA_NONE,        EHA_LIT,                ETA_NOOP, 0, },
             [1][0] = { EEA_INS_LIT,     EHA_INDEXED_NEW,        ETA_NEW,  EPF_REF_NEW, },
             [1][1] = { EEA_NONE,        EHA_LIT,                ETA_NOOP, 0, },  /* Invalid state */
+        #endif
         };
         prog = programs[risk][use_dyn_table && n_cand > 0];
     }
@@ -1880,13 +3030,27 @@ lsqpack_enc_encode (struct lsqpack_enc *enc,
                 && qenc_has_or_can_evict_at_least(enc, ENTRY_COST(name_len, 0)))
     {
         static const struct encode_program programs[2] = {
+        #if 1 // hezhiwen
+            { EEA_INS_LIT_NAME, EHA_LIT,               ETA_NEW_NAME, 0, },
+            { EEA_INS_LIT_NAME, EHA_LIT_WITH_NAME_NEW, ETA_NEW_NAME, EPF_REF_NEW, },
+        #else
             [0] = { EEA_INS_LIT_NAME, EHA_LIT,               ETA_NEW_NAME, 0, },
             [1] = { EEA_INS_LIT_NAME, EHA_LIT_WITH_NAME_NEW, ETA_NEW_NAME, EPF_REF_NEW, },
+        #endif
         };
         prog = programs[ risk ];
     }
     else
+    #if 1 // hezhiwen
+    {
+        prog.ep_enc_action = EEA_NONE;
+        prog.ep_hea_action = EHA_LIT;
+        prog.ep_tab_action = ETA_NOOP;
+        prog.ep_flags = 0;
+    }
+    #else
         prog = (struct encode_program) { EEA_NONE, EHA_LIT, ETA_NOOP, 0, };
+    #endif
 
   execute_program:
     if (((1 << prog.ep_enc_action) &
@@ -3401,13 +4565,25 @@ lsqpack_huff_decode_full (const unsigned char *src, int src_len,
     const unsigned char *const src_end = src + src_len;
     unsigned char *p_dst = dst;
     unsigned char *dst_end = dst + dst_len;
+#if 1 // hezhiwen
+    struct huff_decode_retval retval = {0};
+#endif
 
     if (dst_len == 0)
+    #if 1 // hezhiwen
+    {
+        retval.status = HUFF_DEC_END_DST;
+        retval.n_dst = 0;
+        retval.n_src = 0;
+        return retval;
+    }
+    #else
         return (struct huff_decode_retval) {
             .status = HUFF_DEC_END_DST,
             .n_dst  = 0,
             .n_src  = 0,
         };
+    #endif
 
     switch (state->resume)
     {
@@ -3420,48 +4596,92 @@ lsqpack_huff_decode_full (const unsigned char *src, int src_len,
             if (p_dst == dst_end)
             {
                 state->resume = 2;
+            #if 1 // hezhiwen
+                retval.status = HUFF_DEC_END_DST;
+                retval.n_dst = dst_len;
+                retval.n_src = p_src - src;
+                return retval;
+            #else
                 return (const struct huff_decode_retval) {
                                 .status = HUFF_DEC_END_DST,
                                 .n_dst  = dst_len,
                                 .n_src  = p_src - src,
                 };
+            #endif
             }
     case 2:
             if ((p_dst = qdec_huff_dec4bits(*p_src >> 4, p_dst, &state->status))
                     == NULL)
+            #if 1 // hezhiwen
+            {
+                retval.status = HUFF_DEC_ERROR;
+                return retval;
+            }
+            #else
                 return (struct huff_decode_retval) {
                                                 .status = HUFF_DEC_ERROR, };
+            #endif
             if (p_dst == dst_end)
             {
                 state->resume = 3;
+            #if 1 // hezhiwen
+                retval.status = HUFF_DEC_END_DST;
+                retval.n_dst = dst_len;
+                retval.n_src = p_src - src;
+                return retval;
+            #else
                 return (struct huff_decode_retval) {
                                 .status = HUFF_DEC_END_DST,
                                 .n_dst  = dst_len,
                                 .n_src  = p_src - src,
                 };
+            #endif
             }
     case 3:
             if ((p_dst = qdec_huff_dec4bits(*p_src & 0xf, p_dst, &state->status))
                     == NULL)
+            #if 1 // hezhiwen
+            {
+                retval.status = HUFF_DEC_ERROR;
+                return retval;
+            }
+            #else
                 return (struct huff_decode_retval) { .status = HUFF_DEC_ERROR, };
+            #endif
             ++p_src;
         }
     }
 
     if (final)
+    #if 1 // hezhiwen
+    {
+        retval.status = state->status.eos ? HUFF_DEC_OK : HUFF_DEC_ERROR;
+        retval.n_dst = p_dst - dst;
+        retval.n_src = p_src - src;
+        return retval;
+    }
+    #else
         return (struct huff_decode_retval) {
                     .status = state->status.eos ? HUFF_DEC_OK : HUFF_DEC_ERROR,
                     .n_dst  = p_dst - dst,
                     .n_src  = p_src - src,
         };
+    #endif
     else
     {
         state->resume = 1;
+    #if 1 // hezhiwen
+        retval.status = HUFF_DEC_END_SRC;
+        retval.n_dst = p_dst - dst;
+        retval.n_src = p_src - src;
+        return retval;
+    #else
         return (struct huff_decode_retval) {
                     .status = HUFF_DEC_END_SRC,
                     .n_dst  = p_dst - dst,
                     .n_src  = p_src - src,
         };
+    #endif
     }
 }
 
@@ -4151,7 +5371,13 @@ qdec_header_process (struct lsqpack_dec *dec,
     struct header_block_read_ctx *read_ctx_copy;
     enum lsqpack_read_header_status st;
 
+#if 1 // hezhiwen
+    read_ctx->hbrc_buf.buf = buf;
+    read_ctx->hbrc_buf.sz = bufsz;
+    read_ctx->hbrc_buf.off = 0;
+#else
     read_ctx->hbrc_buf = (struct hbrc_buf) { *buf, bufsz, 0, };
+#endif
     st = qdec_read_header(dec, read_ctx);
     switch (st)
     {
@@ -4256,19 +5482,37 @@ lsqpack_dec_header_in (struct lsqpack_dec *dec, void *hblock,
             uint64_t stream_id, size_t header_size, const unsigned char **buf,
             size_t bufsz, unsigned char *dec_buf, size_t *dec_buf_sz)
 {
+#if 1 // hezhiwen
+    struct header_block_read_ctx read_ctx = {0};
+#endif
+
     if (header_size < 2)
     {
         D_DEBUG("header block for stream %"PRIu64" is too short "
             "(%zd byte%.*s)", stream_id, header_size, header_size != 1, "s");
+    #if 1 // hezhiwen
+        dec->qpd_err.line = __LINE__;
+        dec->qpd_err.type = LSQPACK_DEC_ERR_LOC_HEADER_BLOCK;
+        dec->qpd_err.off = 0;
+        dec->qpd_err.stream_id = stream_id;
+    #else
         dec->qpd_err = (struct lsqpack_dec_err) {
             .line = __LINE__,
             .type = LSQPACK_DEC_ERR_LOC_HEADER_BLOCK,
             .off = 0,
             .stream_id = stream_id,
         };
+    #endif
         return LQRHS_ERROR;
     }
 
+#if 1 // hezhiwen
+    read_ctx.hbrc_stream_id = stream_id;
+    read_ctx.hbrc_hblock = hblock;
+    read_ctx.hbrc_size = header_size;
+    read_ctx.hbrc_orig_size = header_size;
+    read_ctx.hbrc_parse = parse_header_prefix;
+#else
     struct header_block_read_ctx read_ctx = {
         .hbrc_stream_id = stream_id,
         .hbrc_hblock    = hblock,
@@ -4276,6 +5520,7 @@ lsqpack_dec_header_in (struct lsqpack_dec *dec, void *hblock,
         .hbrc_orig_size = header_size,
         .hbrc_parse     = parse_header_prefix,
     };
+#endif
 
     D_DEBUG("begin reading header block for stream %"PRIu64, stream_id);
     return qdec_header_process(dec, &read_ctx, buf, bufsz,
@@ -5033,6 +6278,12 @@ qenc_huffman_enc (const unsigned char *src, const unsigned char *const src_end,
     uintptr_t bits;  /* OK not to initialize this variable */
     unsigned bits_used = 0, adj;
     struct encode_el cur_enc_code;
+#if LS_QPACK_USE_LARGE_TABLES
+#if 1 // hezhiwen
+    const struct henc *henc;
+    uint16_t idx;
+#endif
+#endif
 #if __GNUC__
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
@@ -5041,8 +6292,10 @@ qenc_huffman_enc (const unsigned char *src, const unsigned char *const src_end,
     bits = 0;
 #endif
 #if LS_QPACK_USE_LARGE_TABLES
+#if 0 // hezhiwen
     const struct henc *henc;
     uint16_t idx;
+#endif
 
     while (src + sizeof(bits) * 8 / SHORTEST_CODE + sizeof(idx) < src_end)
     {
@@ -5196,6 +6449,9 @@ huff_decode_fast (const unsigned char *src, int src_len,
     struct huff_decode_retval rv;
     struct hdec hdec;
     uint16_t idx;
+#if 1 // hezhiwen
+    struct huff_decode_retval retval = {0};
+#endif
 
 #if __GNUC__
 #pragma GCC diagnostic push
@@ -5315,11 +6571,18 @@ huff_decode_fast (const unsigned char *src, int src_len,
         hdec = hdecs[idx];
         len = hdec.lens & 3;
         if ((hdec.lens >> 2) > avail_bits)
+        #if 1 // hezhiwen
+        {
+            retval.status = HUFF_DEC_ERROR;
+            return retval;
+        }
+        #else
             return (struct huff_decode_retval) {
                 .status = HUFF_DEC_ERROR,
                 .n_dst  = 0,
                 .n_src  = 0,
             };
+        #endif
         if (len && dst + len <= dst_end)
         {
             switch (len)
@@ -5343,32 +6606,53 @@ huff_decode_fast (const unsigned char *src, int src_len,
             goto dst_ended;
         else
             /* This must be an invalid code, otherwise it would have fit */
+        #if 1 // hezhiwen
+        {
+            retval.status = HUFF_DEC_ERROR;
+            return retval;
+        }
+        #else
             return (struct huff_decode_retval) {
                 .status = HUFF_DEC_ERROR,
                 .n_dst  = 0,
                 .n_src  = 0,
             };
+        #endif
     }
 
     if (avail_bits > 0)
     {
         if (((1u << avail_bits) - 1) != (buf & ((1u << avail_bits) - 1)))
+        #if 1 // hezhiwen
+        {
+            retval.status = HUFF_DEC_ERROR;
+            return retval;
+        }
+        #else
             return (struct huff_decode_retval) { /* Not EOF as expected */
                 .status = HUFF_DEC_ERROR,
                 .n_dst  = 0,
                 .n_src  = 0,
             };
+        #endif
     }
 #if __GNUC__
 #pragma GCC diagnostic pop
 #endif
 
   end:
+  #if 1 // hezhiwen
+    retval.status = HUFF_DEC_OK;
+    retval.n_dst  = dst - orig_dst;
+    retval.n_src  = src_len - (src_end - src);
+    return retval;
+  #else
     return (struct huff_decode_retval) {
         .status = HUFF_DEC_OK,
         .n_dst  = dst - orig_dst,
         .n_src  = src_len - (src_end - src),
     };
+  #endif    
 
   dst_ended:
     /* Find previous byte boundary.  It is OK not to consume all input, as we
@@ -5378,11 +6662,18 @@ huff_decode_fast (const unsigned char *src, int src_len,
         avail_bits += encode_table[ *--dst ].bits;
     assert((avail_bits & 7) == 0);
     src -= avail_bits >> 3;
+#if 1 // hezhiwen
+    retval.status = HUFF_DEC_END_DST;
+    retval.n_dst  = dst_len - (dst_end - dst);
+    retval.n_src  = src_len - (src_end - src);
+    return retval;
+#else
     return (struct huff_decode_retval) {
         .status = HUFF_DEC_END_DST,
         .n_dst  = dst_len - (dst_end - dst),
         .n_src  = src_len - (src_end - src),
     };
+#endif
 
   slow_path:
     /* Find previous byte boundary and finish decoding thence. */
